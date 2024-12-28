@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7706859628E67A0F0066A864 /* HeaderPresets.json in Resources */ = {isa = PBXBuildFile; fileRef = 7706859528E67A0F0066A864 /* HeaderPresets.json */; };
+		7713BAE228E5EEED003B24FD /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713BAE128E5EEED003B24FD /* Symbols.swift */; };
+		7713BAE628E5EFAB003B24FD /* PopupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713BAE428E5EFAB003B24FD /* PopupButton.swift */; };
+		7713BAE728E5EFAB003B24FD /* SheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713BAE528E5EFAB003B24FD /* SheetButton.swift */; };
+		7713BAEB28E5F09E003B24FD /* RandomAccessableKeyValuePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713BAEA28E5F09E003B24FD /* RandomAccessableKeyValuePairs.swift */; };
+		771B802F28E67F590034BB9D /* ComboBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771B802E28E67F590034BB9D /* ComboBox.swift */; };
+		7740F4B128E6CC87005415D2 /* HeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740F4B028E6CC87005415D2 /* HeaderRow.swift */; };
+		7740F4B328E6CCF6005415D2 /* ParaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740F4B228E6CCF6005415D2 /* ParaRow.swift */; };
+		7740F4C128E6D1FD005415D2 /* parser-angular.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4B628E6D1FD005415D2 /* parser-angular.js */; };
+		7740F4C228E6D1FD005415D2 /* parser-graphql.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4B728E6D1FD005415D2 /* parser-graphql.js */; };
+		7740F4C328E6D1FD005415D2 /* standalone.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4B828E6D1FD005415D2 /* standalone.js */; };
+		7740F4C428E6D1FD005415D2 /* parser-flow.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4B928E6D1FD005415D2 /* parser-flow.js */; };
+		7740F4C528E6D1FD005415D2 /* parser-typescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BA28E6D1FD005415D2 /* parser-typescript.js */; };
+		7740F4C628E6D1FD005415D2 /* parser-html.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BB28E6D1FD005415D2 /* parser-html.js */; };
+		7740F4C728E6D1FD005415D2 /* parser-glimmer.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BC28E6D1FD005415D2 /* parser-glimmer.js */; };
+		7740F4C828E6D1FD005415D2 /* parser-markdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BD28E6D1FD005415D2 /* parser-markdown.js */; };
+		7740F4C928E6D1FD005415D2 /* parser-postcss.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BE28E6D1FD005415D2 /* parser-postcss.js */; };
+		7740F4CA28E6D1FD005415D2 /* parser-babylon.js in Resources */ = {isa = PBXBuildFile; fileRef = 7740F4BF28E6D1FD005415D2 /* parser-babylon.js */; };
+		7740F4CB28E6D1FD005415D2 /* Prettier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740F4C028E6D1FD005415D2 /* Prettier.swift */; };
+		7774A24228E5AFA6008D947B /* MockingbirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7774A24128E5AFA6008D947B /* MockingbirdApp.swift */; };
+		7774A24428E5AFA6008D947B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7774A24328E5AFA6008D947B /* ContentView.swift */; };
+		7774A24628E5AFA7008D947B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7774A24528E5AFA7008D947B /* Assets.xcassets */; };
+		7774A24928E5AFA7008D947B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7774A24828E5AFA7008D947B /* Preview Assets.xcassets */; };
+		779F7C6228E5CD2500A377B0 /* Array+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F7C6128E5CD2500A377B0 /* Array+RawRepresentable.swift */; };
+		77A2E6BE28E5CCB200A141DF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E6BD28E5CCB200A141DF /* Request.swift */; };
+		77BD008228E67664009FDF39 /* HeaderPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD008128E67664009FDF39 /* HeaderPresets.swift */; };
+		77C763AF28E6AB63001361B3 /* DetailedRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C763AE28E6AB63001361B3 /* DetailedRequestView.swift */; };
+		77E5830828E68F7A00EE3711 /* Symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = 77E5830728E68F7A00EE3711 /* Symbols.json */; };
+		77E5830A28E68F8F00EE3711 /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5830928E68F8F00EE3711 /* Load.swift */; };
+		77FABA2328E6C1310031F0A0 /* String+isWhiteSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FABA2228E6C1310031F0A0 /* String+isWhiteSpace.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7706859528E67A0F0066A864 /* HeaderPresets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HeaderPresets.json; sourceTree = "<group>"; };
+		7713BAE128E5EEED003B24FD /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		7713BAE428E5EFAB003B24FD /* PopupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupButton.swift; sourceTree = "<group>"; };
+		7713BAE528E5EFAB003B24FD /* SheetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetButton.swift; sourceTree = "<group>"; };
+		7713BAEA28E5F09E003B24FD /* RandomAccessableKeyValuePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessableKeyValuePairs.swift; sourceTree = "<group>"; };
+		771B802E28E67F590034BB9D /* ComboBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboBox.swift; sourceTree = "<group>"; };
+		7740F4B028E6CC87005415D2 /* HeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderRow.swift; sourceTree = "<group>"; };
+		7740F4B228E6CCF6005415D2 /* ParaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParaRow.swift; sourceTree = "<group>"; };
+		7740F4B628E6D1FD005415D2 /* parser-angular.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-angular.js"; sourceTree = "<group>"; };
+		7740F4B728E6D1FD005415D2 /* parser-graphql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-graphql.js"; sourceTree = "<group>"; };
+		7740F4B828E6D1FD005415D2 /* standalone.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = standalone.js; sourceTree = "<group>"; };
+		7740F4B928E6D1FD005415D2 /* parser-flow.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-flow.js"; sourceTree = "<group>"; };
+		7740F4BA28E6D1FD005415D2 /* parser-typescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-typescript.js"; sourceTree = "<group>"; };
+		7740F4BB28E6D1FD005415D2 /* parser-html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-html.js"; sourceTree = "<group>"; };
+		7740F4BC28E6D1FD005415D2 /* parser-glimmer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-glimmer.js"; sourceTree = "<group>"; };
+		7740F4BD28E6D1FD005415D2 /* parser-markdown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-markdown.js"; sourceTree = "<group>"; };
+		7740F4BE28E6D1FD005415D2 /* parser-postcss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-postcss.js"; sourceTree = "<group>"; };
+		7740F4BF28E6D1FD005415D2 /* parser-babylon.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "parser-babylon.js"; sourceTree = "<group>"; };
+		7740F4C028E6D1FD005415D2 /* Prettier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prettier.swift; sourceTree = "<group>"; };
+		7774A23E28E5AFA6008D947B /* Mockingbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mockingbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7774A24128E5AFA6008D947B /* MockingbirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingbirdApp.swift; sourceTree = "<group>"; };
+		7774A24328E5AFA6008D947B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7774A24528E5AFA7008D947B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7774A24828E5AFA7008D947B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7774A24A28E5AFA7008D947B /* Mockingbird.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mockingbird.entitlements; sourceTree = "<group>"; };
+		779F7C6128E5CD2500A377B0 /* Array+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RawRepresentable.swift"; sourceTree = "<group>"; };
+		77A2E6BD28E5CCB200A141DF /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		77BD008128E67664009FDF39 /* HeaderPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPresets.swift; sourceTree = "<group>"; };
+		77C763AE28E6AB63001361B3 /* DetailedRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedRequestView.swift; sourceTree = "<group>"; };
+		77E5830728E68F7A00EE3711 /* Symbols.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Symbols.json; sourceTree = "<group>"; };
+		77E5830928E68F8F00EE3711 /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		77FABA2228E6C1310031F0A0 /* String+isWhiteSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+isWhiteSpace.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7774A23B28E5AFA6008D947B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7713BAE328E5EFAB003B24FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7713BAE428E5EFAB003B24FD /* PopupButton.swift */,
+				7713BAE528E5EFAB003B24FD /* SheetButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7740F4B428E6D1FD005415D2 /* Prettier_swift */ = {
+			isa = PBXGroup;
+			children = (
+				7740F4B528E6D1FD005415D2 /* JS */,
+				7740F4C028E6D1FD005415D2 /* Prettier.swift */,
+			);
+			path = Prettier_swift;
+			sourceTree = "<group>";
+		};
+		7740F4B528E6D1FD005415D2 /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				7740F4B628E6D1FD005415D2 /* parser-angular.js */,
+				7740F4B728E6D1FD005415D2 /* parser-graphql.js */,
+				7740F4B828E6D1FD005415D2 /* standalone.js */,
+				7740F4B928E6D1FD005415D2 /* parser-flow.js */,
+				7740F4BA28E6D1FD005415D2 /* parser-typescript.js */,
+				7740F4BB28E6D1FD005415D2 /* parser-html.js */,
+				7740F4BC28E6D1FD005415D2 /* parser-glimmer.js */,
+				7740F4BD28E6D1FD005415D2 /* parser-markdown.js */,
+				7740F4BE28E6D1FD005415D2 /* parser-postcss.js */,
+				7740F4BF28E6D1FD005415D2 /* parser-babylon.js */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		7774A23528E5AFA6008D947B = {
+			isa = PBXGroup;
+			children = (
+				7740F4B428E6D1FD005415D2 /* Prettier_swift */,
+				7774A24028E5AFA6008D947B /* Mockingbird */,
+				7774A23F28E5AFA6008D947B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7774A23F28E5AFA6008D947B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7774A23E28E5AFA6008D947B /* Mockingbird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7774A24028E5AFA6008D947B /* Mockingbird */ = {
+			isa = PBXGroup;
+			children = (
+				7774A24128E5AFA6008D947B /* MockingbirdApp.swift */,
+				77E5830428E68F4E00EE3711 /* ModelData */,
+				77E5830228E68F3400EE3711 /* Views */,
+				7774A24528E5AFA7008D947B /* Assets.xcassets */,
+				7774A24A28E5AFA7008D947B /* Mockingbird.entitlements */,
+				7774A24728E5AFA7008D947B /* Preview Content */,
+			);
+			path = Mockingbird;
+			sourceTree = "<group>";
+		};
+		7774A24728E5AFA7008D947B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7774A24828E5AFA7008D947B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77E5830228E68F3400EE3711 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7713BAE328E5EFAB003B24FD /* Utilities */,
+				77C763AE28E6AB63001361B3 /* DetailedRequestView.swift */,
+				7740F4B028E6CC87005415D2 /* HeaderRow.swift */,
+				7740F4B228E6CCF6005415D2 /* ParaRow.swift */,
+				771B802E28E67F590034BB9D /* ComboBox.swift */,
+				7774A24328E5AFA6008D947B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77E5830428E68F4E00EE3711 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				77E5830928E68F8F00EE3711 /* Load.swift */,
+				779F7C6128E5CD2500A377B0 /* Array+RawRepresentable.swift */,
+				77E5830628E68F6900EE3711 /* Data */,
+				77E5830528E68F5800EE3711 /* Model */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		77E5830528E68F5800EE3711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7713BAEA28E5F09E003B24FD /* RandomAccessableKeyValuePairs.swift */,
+				77A2E6BD28E5CCB200A141DF /* Request.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77E5830628E68F6900EE3711 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7706859528E67A0F0066A864 /* HeaderPresets.json */,
+				77E5830728E68F7A00EE3711 /* Symbols.json */,
+				77BD008128E67664009FDF39 /* HeaderPresets.swift */,
+				7713BAE128E5EEED003B24FD /* Symbols.swift */,
+				77FABA2228E6C1310031F0A0 /* String+isWhiteSpace.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7774A23D28E5AFA6008D947B /* Mockingbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7774A24D28E5AFA7008D947B /* Build configuration list for PBXNativeTarget "Mockingbird" */;
+			buildPhases = (
+				7774A23A28E5AFA6008D947B /* Sources */,
+				7774A23B28E5AFA6008D947B /* Frameworks */,
+				7774A23C28E5AFA6008D947B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mockingbird;
+			productName = Mockingbird;
+			productReference = 7774A23E28E5AFA6008D947B /* Mockingbird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7774A23628E5AFA6008D947B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7774A23D28E5AFA6008D947B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7774A23928E5AFA6008D947B /* Build configuration list for PBXProject "Mockingbird" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7774A23528E5AFA6008D947B;
+			productRefGroup = 7774A23F28E5AFA6008D947B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7774A23D28E5AFA6008D947B /* Mockingbird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7774A23C28E5AFA6008D947B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7740F4C728E6D1FD005415D2 /* parser-glimmer.js in Resources */,
+				7774A24928E5AFA7008D947B /* Preview Assets.xcassets in Resources */,
+				7740F4C328E6D1FD005415D2 /* standalone.js in Resources */,
+				7740F4C228E6D1FD005415D2 /* parser-graphql.js in Resources */,
+				7740F4C428E6D1FD005415D2 /* parser-flow.js in Resources */,
+				7740F4C528E6D1FD005415D2 /* parser-typescript.js in Resources */,
+				7740F4C828E6D1FD005415D2 /* parser-markdown.js in Resources */,
+				7740F4C128E6D1FD005415D2 /* parser-angular.js in Resources */,
+				77E5830828E68F7A00EE3711 /* Symbols.json in Resources */,
+				7706859628E67A0F0066A864 /* HeaderPresets.json in Resources */,
+				7740F4C628E6D1FD005415D2 /* parser-html.js in Resources */,
+				7740F4CA28E6D1FD005415D2 /* parser-babylon.js in Resources */,
+				7740F4C928E6D1FD005415D2 /* parser-postcss.js in Resources */,
+				7774A24628E5AFA7008D947B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7774A23A28E5AFA6008D947B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713BAE228E5EEED003B24FD /* Symbols.swift in Sources */,
+				77FABA2328E6C1310031F0A0 /* String+isWhiteSpace.swift in Sources */,
+				77E5830A28E68F8F00EE3711 /* Load.swift in Sources */,
+				7713BAEB28E5F09E003B24FD /* RandomAccessableKeyValuePairs.swift in Sources */,
+				7713BAE728E5EFAB003B24FD /* SheetButton.swift in Sources */,
+				7774A24428E5AFA6008D947B /* ContentView.swift in Sources */,
+				7713BAE628E5EFAB003B24FD /* PopupButton.swift in Sources */,
+				771B802F28E67F590034BB9D /* ComboBox.swift in Sources */,
+				7740F4CB28E6D1FD005415D2 /* Prettier.swift in Sources */,
+				77A2E6BE28E5CCB200A141DF /* Request.swift in Sources */,
+				77C763AF28E6AB63001361B3 /* DetailedRequestView.swift in Sources */,
+				77BD008228E67664009FDF39 /* HeaderPresets.swift in Sources */,
+				7740F4B328E6CCF6005415D2 /* ParaRow.swift in Sources */,
+				7740F4B128E6CC87005415D2 /* HeaderRow.swift in Sources */,
+				7774A24228E5AFA6008D947B /* MockingbirdApp.swift in Sources */,
+				779F7C6228E5CD2500A377B0 /* Array+RawRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7774A24B28E5AFA7008D947B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7774A24C28E5AFA7008D947B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7774A24E28E5AFA7008D947B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mockingbird/Mockingbird.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mockingbird/Preview Content\"";
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.Mockingbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7774A24F28E5AFA7008D947B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mockingbird/Mockingbird.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mockingbird/Preview Content\"";
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.Mockingbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7774A23928E5AFA6008D947B /* Build configuration list for PBXProject "Mockingbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7774A24B28E5AFA7008D947B /* Debug */,
+				7774A24C28E5AFA7008D947B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7774A24D28E5AFA7008D947B /* Build configuration list for PBXNativeTarget "Mockingbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7774A24E28E5AFA7008D947B /* Debug */,
+				7774A24F28E5AFA7008D947B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7774A23628E5AFA6008D947B /* Project object */;
+}
